@@ -1,6 +1,6 @@
 ---
-- name: Update hostname
+- name: Install package
   hosts: remote_host
   become: true
   roles:
-    - update_hostname
+    - install_package
