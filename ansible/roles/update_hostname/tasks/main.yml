@@ -1,0 +1,4 @@
+---
+- name: Update /etc/hostname
+  hostname:
+    name: 'max-dubov-lab2'
